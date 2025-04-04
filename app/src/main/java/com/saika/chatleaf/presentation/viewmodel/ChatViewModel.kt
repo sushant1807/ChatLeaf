@@ -16,37 +16,6 @@ class ChatViewModel @Inject constructor(
     private val chatUseCase: ChatUseCase
 ) : ViewModel() {
 
-//    var messages by mutableStateOf<List<Message>>(emptyList())
-//        private set
-//
-//    var isLoading by mutableStateOf(false)
-//        private set
-//
-//    var errorMessage by mutableStateOf<String?>(null)
-//        private set
-//
-//    fun sendMessage(input: String) {
-//        val updatedMessages = messages + Message("user", input)
-//        messages = updatedMessages
-//
-//        viewModelScope.launch {
-//            isLoading = true
-//            errorMessage = null
-//
-//            when (val result = chatUseCase(updatedMessages)) {
-//                is Resource.Success -> {
-//                    messages = messages + result.data
-//                }
-//                is Resource.Error -> {
-//                    errorMessage = result.message
-//                }
-//                is Resource.Loading -> { /* Optional */ }
-//            }
-//
-//            isLoading = false
-//        }
-//    }
-
     var uiState by mutableStateOf<Resource<String>>(Resource.Success("Ask me anything"))
         private set
 

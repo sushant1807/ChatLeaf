@@ -1,6 +1,5 @@
 package com.saika.chatleaf.di
 
-import android.util.Log
 import com.saika.chatleaf.BuildConfig
 import com.saika.chatleaf.data.remote.api.ChatApiService
 import com.saika.chatleaf.data.repository.ChatRepositoryImpl
