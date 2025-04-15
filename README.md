@@ -32,4 +32,4 @@ An AI-powered Android app built with **Jetpack Compose**, **Hilt**, **Retrofit**
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/sushant1807/gemini-ai-android-app.git
+   git clone https://github.com/sushant1807/ChatLeaf.git
