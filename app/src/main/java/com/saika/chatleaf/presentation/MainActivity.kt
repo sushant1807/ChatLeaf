@@ -37,6 +37,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ChatLeafTheme {
-        Greeting("Android")
+        //Greeting("Android")
+        ChatScreen()
     }
 }

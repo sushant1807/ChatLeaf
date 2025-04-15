@@ -55,17 +55,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideCharacterUseCase(repository: ChatRepository): ChatUseCase {
+    fun provideChatUseCase(repository: ChatRepository): ChatUseCase {
         return ChatUseCase(repository)
     }
-
-//        @Provides
-//        @Singleton
-//        fun provideCharacterDetailUseCase(repository: CharacterRepository): CharacterDetailUseCase {
-//            return CharacterDetailUseCase(repository)
-//        }
-//
-//        @Provides
-//        fun provideDispatcher(): CoroutineDispatcher = Dispatchers.IO
-
 }

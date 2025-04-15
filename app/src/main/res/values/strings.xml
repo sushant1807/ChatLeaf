@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ChatLeaf</string>
+    <string name="lbl_send">Send</string>
+    <string name="lbl_ask_gemini">Ask Gemini</string>
 </resources>

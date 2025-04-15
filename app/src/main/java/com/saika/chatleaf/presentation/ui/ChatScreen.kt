@@ -54,13 +54,13 @@ fun ChatScreen(viewModel: ChatViewModel = hiltViewModel()) {
                 value = prompt,
                 onValueChange = { prompt = it },
                 modifier = Modifier.fillMaxWidth(),
-                label = { Text("Ask ChatGPT") }
+                label = { Text(stringResource(R.string.lbl_ask_gemini)) }
             )
 
             Spacer(modifier = Modifier.height(8.dp))
 
             Button(onClick = { viewModel.sendPrompt(prompt) }) {
-                Text("Send")
+                Text(stringResource(R.string.lbl_send))
             }
 
             Spacer(modifier = Modifier.height(16.dp))
